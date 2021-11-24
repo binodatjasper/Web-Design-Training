@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #fff;
+}
+
+.welcome-section h1{
+	color: blue;
+	font-size: 48px;
+	font-weight: 700;
+	/*text-transform: lowercase;*/
+	/*text-transform: uppercase;*/
+	text-transform: capitalize;
+	text-align: left;
+	/*text-align: center;*/
+	/*text-align: right;*/
+	background: grey;
+}
+
+.welcome-section p{
+	color: #666;
+	font-size: 20px;
+	text-align: justify;
+	text-align-last: center;
+	/*letter-spacing: normal;*/
+	/*word-spacing: 30px;*/
+	line-height: 30px;
+}
+
+
+.welcome-section ul li{
+	list-style: none;
+	font-size: 20px;
+	color: #666;
+	line-height: 30px;
+	text-align: center;
+}
+
+.topics-section h1{
+	color: red;
+	font-size: 24px;
+}
