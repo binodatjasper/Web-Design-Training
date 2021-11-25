@@ -7,39 +7,81 @@ body{
 	background: #fff;
 }
 
-.welcome-section h1{
-	color: blue;
-	font-size: 48px;
-	font-weight: 700;
-	/*text-transform: lowercase;*/
-	/*text-transform: uppercase;*/
-	text-transform: capitalize;
-	text-align: left;
-	/*text-align: center;*/
-	/*text-align: right;*/
-	background: grey;
+.welcome-section div{
+	margin-bottom: 15px;
+
+	width: 200px;
+	height: 100px;
+/*	border-width: 10px;
+	border-color: #000;
+	border-style: solid;*/
+	border: #000 solid 10px;
 }
 
-.welcome-section p{
-	color: #666;
-	font-size: 20px;
-	text-align: justify;
-	text-align-last: center;
-	/*letter-spacing: normal;*/
-	/*word-spacing: 30px;*/
-	line-height: 30px;
+.welcome-section .box2{
+	border-style: dotted;
 }
 
-
-.welcome-section ul li{
-	list-style: none;
-	font-size: 20px;
-	color: #666;
-	line-height: 30px;
-	text-align: center;
+.welcome-section .box3{
+	border-style: dashed;
 }
 
-.topics-section h1{
-	color: red;
-	font-size: 24px;
+.welcome-section .box4{
+	border-color: red;
 }
+
+.welcome-section .box5{
+	border-top-color: red;
+}
+
+.welcome-section .box6{
+	border-right-color: blue;
+}
+
+.welcome-section .box7{
+	border-bottom-color: orange;
+}
+
+.welcome-section .box8{
+	border-left-color: green;
+}
+
+.welcome-section .box9{
+	border-radius: 10px;
+}
+
+.welcome-section .box10{
+	border-radius: 50%;
+	height: 200px;
+	border-top-color: red;
+	border-right-color: green;
+	border-bottom-color: pink;
+	border-left-color: yellow;
+	border-width: 20px;
+}
+
+.welcome-section .box11{
+	/*border-radius: 50px 0 0 0;*/
+	border-top-left-radius: 50px;
+	border-top-color: red;
+}
+
+.welcome-section .box12{
+	border-top-right-radius: 50px;
+	border-right-color: green;
+}
+
+.welcome-section .box13{
+	border-bottom-right-radius: 50px;
+	border-bottom-color: pink;
+}
+
+.welcome-section .box14{
+	border-bottom-left-radius: 50px;
+	border-left-color: yellow;
+}
+
+.welcome-section .box15{
+	border-left-color: green;
+}
+
